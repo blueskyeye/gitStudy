@@ -1,6 +1,41 @@
 #配置本地插件
+## 前提条件
+
+1.Gitee(或github)已注册，Gitee(或github)上已有一个**公开**的源项目。
+
 ##配置eclipse
+
 https://blog.csdn.net/what_new/article/details/124215155
-1.配置eclipse
+
+## Eclipse上安装GIT插件EGit
+
+EGit插件地址：http://download.eclipse.org/egit/updates
+
+### Eclipse密钥管理
+
+[SSH](http://news.sohu.com/a/536705369_657867),密钥主要用于与远程仓库连接时免密登录。
+
+SSH 为建立在应用层基础上的安全协议。SSH 是较可靠，专为[远程登录](https://baike.baidu.com/item/%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95/1071998)会话和其他网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。
+
+菜单位置：***windows >  Preferences  >  General > Network Connections > SSH2***
+
+![1657415744281](E:\gitApp\vuepress-devkit\image\1657415744281.png)
+
+在SSH2下，在Key Management栏下，生成RSA免密登录的密钥。并点击"Save Private Key"按钮。
+
+![1657423080552](E:\gitApp\vuepress-devkit\image\1657423080552.png)
+
+### github配置公钥
+
+登录github,配置setting。将eclipse
+
+![1657422919208](E:\gitApp\vuepress-devkit\image\1657422919208.png)
+
+![1657422995102](E:\gitApp\vuepress-devkit\image\1657422995102.png)
+
+
+
+![1657423144729](E:\gitApp\vuepress-devkit\image\1657423144729.png)
+
 ##配置vs
 ##配置idea
